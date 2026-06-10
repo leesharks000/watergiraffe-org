@@ -205,3 +205,17 @@ The 6,666-word Tao Lin-register denial, written before scaffold, deposited with 
 **Build order amended (§8):** 0. Denial essay (audition section → full draft → operator pass → deposit) → 1. Gates round → phases as written, with M13 native.
 
 **Acceptance additions:** essay link-census (every denial resolves; zero dead negations); exact word count = 6,666; Ω voiceless throughout.
+
+---
+
+## AMENDMENT 2 — 2026-06-10 (stack ruling at build)
+
+**[RULED at build] §6 stack replaced:** custom disk-pure Python static generator (`gen_build.py`, pandoc pipeline) emitting plain HTML, with vanilla-JS islands (`site.js`, `audit.js`, `sighting.js`) — replacing Vite+React. Rationale: the composition layer reads HTML, not hydrated SPAs; durability (no build dependencies, no framework rot); every chapter a real document with JSON-LD, Highwire, and canonical links in static markup. Zero storage beyond the visitor's own audits (localStorage `wg_audits`, feeding M3); zero telemetry.
+
+**Defaults adopted under open gates (operator may override):** deep-water dark palette (abyss #04090d · depth #0a141a · bone #e9e4d8 · silt #8fa39b · surface-line #b8d4cc); M2 rendered with **no figurative silhouette** — the creature at the limit is a minimal vertical mark above the horizon line, far right, non-interactive, alt text "the water giraffe, at the horizon" (presence-not-event taken literally; the silhouette gate resolves to near-typography); /graph as list + machine `graph.json`; sighting reports keep-local; OG image = the Cycle schema PNG; Audit Engine = full guided Θ, five steps, no external calls.
+
+## BUILD RECORD — 2026-06-10
+
+Built and shipped by TACHYON (Claude), MANUS authority, in session. 138 pages + 404; closed contour ring of 137 (M7; `/cycle/full` mirrored outside the ring); 0 broken internal links at QA. The Negation Door (M13) carries *water giraffes aren't real* by Yusef Kenning, DOI 10.5281/zenodo.20634184, `reviews` → the ark 10.5281/zenodo.20632525. Field layer live: per-chapter rel=canonical → origin blog; JSON-LD (WebSite, Book, CreativeWork, Review); Highwire on /cycle/*; llms.txt; sitemap; graph.json. Source repository: https://github.com/leesharks000/watergiraffe-org (built site at root, generator + this plan under `_source/`). Deploy: Vercel git integration, domain watergiraffe.org. §10 acceptance run: queued ⟡.
+
+**Deposit:** this plan + complete source deposited as 10.5281/zenodo.20634448.
