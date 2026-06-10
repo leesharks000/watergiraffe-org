@@ -1,0 +1,76 @@
+/* watergiraffe.org — deep-water dark. Palette: abyss #04090d, depth #0a141a, bone #e9e4d8, silt #8fa39b, surface-line #b8d4cc */
+:root{--abyss:#04090d;--depth:#0a141a;--bone:#e9e4d8;--silt:#8fa39b;--line:#b8d4cc;--glow:.35;--mark-h:26px;
+--serif:"Iowan Old Style","Palatino Linotype",Palatino,"URW Palladio L",P052,Georgia,serif;
+--mono:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--abyss);color:var(--bone);font:18px/1.65 var(--serif);min-height:100vh;padding-bottom:120px}
+a{color:var(--bone);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--line)}a:focus-visible{outline:2px solid var(--line);outline-offset:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:2.2rem 1.2rem 4rem}
+header.site{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:baseline;padding:1rem 1.2rem;font-family:var(--mono);font-size:.78rem;letter-spacing:.04em}
+header.site .wm{color:var(--bone);text-decoration:none;letter-spacing:.12em}
+header.site nav{display:flex;flex-wrap:wrap;gap:1rem;margin-left:auto}
+header.site nav a{color:var(--silt);text-decoration:none}header.site nav a:hover,header.site nav a[aria-current]{color:var(--line)}
+h1,h2,h3,h4{font-weight:600;line-height:1.25;letter-spacing:.005em}
+h1{font-size:1.9rem;margin:1.2rem 0 .8rem}h2{font-size:1.35rem;margin:2.2rem 0 .6rem}
+h3,h4,h5{font-size:1.08rem;margin:1.8rem 0 .5rem}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--silt);margin:0 0 .4rem}
+blockquote{margin:1.2rem 0;padding-left:1rem;border-left:1px solid var(--line);color:var(--silt)}
+pre{background:var(--depth);border:1px solid #14242c;padding:1rem;overflow-x:auto;font:.8rem/1.5 var(--mono);color:var(--bone)}
+code{font-family:var(--mono);font-size:.85em}
+hr{border:0;border-top:1px dotted #1d3038;margin:2.4rem 0}
+img{max-width:100%;height:auto;border:1px solid #14242c}
+table{border-collapse:collapse;font-size:.85rem;width:100%;overflow-x:auto;display:block}
+td,th{border:1px solid #1d3038;padding:.4rem .6rem;text-align:left;vertical-align:top}
+.mono,.manifest,.ring{font-family:var(--mono)}
+/* the door */
+.door{display:flex;flex-direction:column;justify-content:center;min-height:78vh}
+.wordmark{font-size:clamp(2.6rem,9vw,5rem);line-height:1.04;letter-spacing:.01em;margin:0}
+.wordmark .above{display:block}
+.wordmark .below{display:block;border-top:1px solid var(--line);color:var(--silt);padding-top:.12em;margin-top:.06em}
+.door .epigraph{color:var(--silt);margin:2rem 0 0;max-width:34rem}
+.thresholds{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2.6rem}
+.thresholds a{font-family:var(--mono);font-size:.85rem;letter-spacing:.05em;text-decoration:none;border:1px solid #1d3038;padding:.9rem 1.2rem;color:var(--bone)}
+.thresholds a:hover{border-color:var(--line);color:var(--line)}
+.story-excerpt{margin-top:4rem;color:var(--silt);font-size:.95rem}
+/* the anchored horizon — M2: presence, not event */
+.horizon{position:fixed;left:0;right:0;bottom:0;height:84px;pointer-events:none;z-index:5}
+.horizon .line{position:absolute;left:0;right:0;bottom:56px;height:1px;background:var(--line);opacity:var(--glow);box-shadow:0 0 18px 1px rgba(184,212,204,calc(var(--glow)*.5))}
+.horizon .water{position:absolute;left:0;right:0;bottom:0;height:56px;background:linear-gradient(#04090d00,#020608f0)}
+.horizon .mark{position:absolute;right:7vw;bottom:57px;width:2px;height:var(--mark-h);background:var(--line);opacity:calc(var(--glow) + .15);transition:height 2.4s ease,opacity 2.4s ease}
+.horizon .mark::before{content:"";position:absolute;top:0;left:-2px;width:6px;height:3px;background:var(--line)}
+body.vault{--glow:.55;--mark-h:34px}
+body.lost{--glow:.8;--mark-h:46px}
+@media(prefers-reduced-motion:reduce){.horizon .mark{transition:none}html{scroll-behavior:auto}}
+/* essay register */
+.notreal{font-size:1.02rem}.notreal h1{font-size:1.5rem;text-transform:lowercase}
+.notreal h2{font-size:1.02rem;font-weight:600;color:var(--silt);text-transform:lowercase;margin-top:2.6rem}
+.notreal .byline{font-family:var(--mono);font-size:.8rem;color:var(--silt)}
+/* catalog lists */
+.specimens{list-style:none;padding:0;margin:1rem 0}
+.specimens li{display:flex;gap:.9rem;padding:.45rem 0;border-bottom:1px dotted #15262e;align-items:baseline}
+.specimens .n{font-family:var(--mono);font-size:.72rem;color:var(--silt);min-width:2.6rem}
+.specimens a{text-decoration:none}.specimens a:hover{color:var(--line)}
+.divnote{color:var(--silt);font-size:.92rem}
+/* crossings + encounter */
+.crossing,.encounter{border:1px solid #1d3038;padding:.9rem 1.1rem;margin:2.2rem 0;font-size:.92rem;color:var(--silt)}
+.crossing em{color:var(--bone)}
+/* footer: ring, manifest */
+footer.site{margin:4rem auto 0;max-width:46rem;padding:0 1.2rem 2rem;font-family:var(--mono);font-size:.74rem;color:var(--silt)}
+.ring{display:flex;justify-content:space-between;gap:1rem;border-top:1px dotted #1d3038;padding-top:1rem}
+.ring a{text-decoration:none;color:var(--silt)}.ring a:hover{color:var(--line)}
+.contour{margin:.8rem 0;color:#5b6e68}
+footer details{margin-top:1rem}footer summary{cursor:pointer;color:#5b6e68}
+.manifest{color:#5b6e68;line-height:1.8}.manifest a{color:var(--silt)}
+/* forms (audit, sighting) */
+.engine label{display:block;font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;color:var(--silt);margin:1.4rem 0 .3rem}
+.engine input[type=text],.engine textarea{width:100%;background:var(--depth);border:1px solid #1d3038;color:var(--bone);font:1rem/1.5 var(--serif);padding:.6rem}
+.engine textarea{min-height:5.2rem}
+.engine .qs{color:var(--silt);font-size:.9rem;margin:.2rem 0 .6rem}
+.engine button{font-family:var(--mono);font-size:.82rem;letter-spacing:.05em;background:none;border:1px solid var(--line);color:var(--bone);padding:.7rem 1.1rem;margin:1.6rem .6rem 0 0;cursor:pointer}
+.engine button:hover{color:var(--line)}
+.engine .step{display:none}.engine .step.on{display:block}
+.engine output{display:block}
+.rules{font-size:.9rem;color:var(--silt)}
+.statusbox{font-family:var(--mono)}
+@media(max-width:640px){body{font-size:16.5px}.horizon .mark{right:10vw}}

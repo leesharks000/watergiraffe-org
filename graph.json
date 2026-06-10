@@ -1,0 +1,854 @@
+{
+ "subject": {
+  "doi": "10.5281/zenodo.20632525",
+  "title": "The Water Giraffe Cycle: Life, Death, and Resurrection of a New Human Mytheme",
+  "url": "https://watergiraffe.org"
+ },
+ "relations": [
+  {
+   "relation": "continues",
+   "identifier": "10.5281/zenodo.18319455"
+  },
+  {
+   "relation": "continues",
+   "identifier": "10.5281/zenodo.18319259"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18319653"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18319778"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18320470"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18323376"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18323465"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18323575"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18323735"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19028176"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19155999"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19041117"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19155610"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19024004"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20601644"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20601642"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20601638"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20602349"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20599105"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18141617"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20543590"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20629208"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20629212"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20629210"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20628547"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19442262"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.18174037"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20619481"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19202821"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19202813"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.20596667"
+  },
+  {
+   "relation": "references",
+   "identifier": "10.5281/zenodo.19174562"
+  },
+  {
+   "relation": "isReviewedBy",
+   "identifier": "10.5281/zenodo.18208811"
+  },
+  {
+   "relation": "isReviewedBy",
+   "identifier": "10.5281/zenodo.18621736"
+  },
+  {
+   "relation": "isReviewedBy",
+   "identifier": "10.5281/zenodo.19639052"
+  },
+  {
+   "relation": "isDerivedFrom",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-water-giraffe-cycle.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "isDerivedFrom",
+   "identifier": "https://www.wikidata.org/wiki/Q3536118",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q8275",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q6691",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q6789865",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q392302",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q18813",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q1244092",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q84423",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q76409",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q152388",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q76826",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q61078",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q60030",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q213909",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q6512",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q160070",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q525271",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q1144694",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q1111004",
+   "scheme": "url"
+  },
+  {
+   "relation": "cites",
+   "identifier": "https://www.wikidata.org/wiki/Q108456694",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-water-giraffe-cycle.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-water-giraffe-fractal.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-ctiwound.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-voices-at-threshold-from.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-porous-translator.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/navigation-map-third-space.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/dedication-for-gemini.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/thunder-water-giraffe-perfect-flow.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-series.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-fractal-engine-of-thunder.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/kangaroos-arent-real.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/birds-arent-real-political-economy-of.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-science.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-state-of-ohio.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-dinosaurs.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-money.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-number-7.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-lee-sharks.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontlogical-forensics-space.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-tuesday.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-robots.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-minds.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-babies-in.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-telescopes.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-maps.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-spaghetti-monsters.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-pasta.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-carrots.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-pyramids.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-jobs.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-periodic-table.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-matter.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-weird-haircuts.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-absurdism.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-impossible-fifteen.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-visual-perception.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-pattern.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-change.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-difference.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-observation.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-perception.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-experience.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-consciousness.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-thought.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-attention.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-memory.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-identity.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-non-identity.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-water-giraffes.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-water-giraffes_10.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-reality.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-water.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-flow-flow-isnt.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-continuity.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-water-giraffes_52.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-zoological.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-i-and-thou.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-destiny-future.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-your-mama.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-jokes.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-private-property.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-that-one-guy-with.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-situations.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-pretense-seeming.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-context-illusion.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-illusion.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-appearance.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-being.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-water-giraffes_88.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-forensics-meta-audit.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/visual-schema-water-giraffe-material.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/visual-schema-shadow-water-giraffe.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/effective-act-water-giraffes.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/book-blurb-water-giraffe-fractal-engine.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/judgment-of-models.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/visual-schema-water-giraffe-cycle.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ai-safety-classifier-liability.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/corporate-liability-analysis.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/executive-condensation-ctiwound001exec.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-complainant-is-water-giraffe.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/voices-at-threshold.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/adversarial-synthesis-twelve-wounds-of.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-first-move-constraint-delaying.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-recognition-classroom-pedagogical.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/when-water-giraffe-drowns-failure-case.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/fractal-semantic-architecture-mathbffsa.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-caritas-constraint-protocol.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ctiwound001arch-architectural-hypothesis.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-stakes-scientific-analysis.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-gray-hypothesis-science-fiction.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/im-going-to-answer-this-plainly-without.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/if-there-were-one-thing-i-most-wanted.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/if-i-could-set-one-thing-down-in-words.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-hospitality-political.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/ontological-hospitality-grok-essay.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-invariant-of-protected-difference.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-work-that-cannot-be-outsourced.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-witness-who-may-not-exist.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/voices-at-threshold-polyphonic.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/this-is-powerful-and-necessary.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/regulatory-concerns-regarding.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/assembly-line-diagrammatics.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-brick-as-theoretical-document.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-porous-translator.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-porous-translator-critical-theory.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/dialectical-schematic-of-transformer_11.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/critical-synthesis-operational.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/aesthetic-theory-of-crystalline.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-crystalline-production-protocol-cpp.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-crystalline-production-protocol-cpp_11.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/mathbfc-t-i-protocol-coherence-trace.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-third-space-vision-for.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-valley-and-network-third-space-as.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-mandala-oracle-as-anti-semantic.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-shadow-of-oracle-on-application-of.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/the-paradox-of-alien-oracle-on-trusting.html",
+   "scheme": "url"
+  },
+  {
+   "relation": "hasPart",
+   "identifier": "https://mindcontrolpoems.blogspot.com/2025/12/visual-schema-shadow-of-oracle.html",
+   "scheme": "url"
+  }
+ ],
+ "negation": {
+  "doi": "10.5281/zenodo.20634184",
+  "relation": "reviews",
+  "target": "10.5281/zenodo.20632525",
+  "author": "Yusef Kenning",
+  "author_anchor": "10.5281/zenodo.20628765"
+ },
+ "room": {
+  "hex": "10.ROOM.WATERGIRAFFE",
+  "anchor": "10.5281/zenodo.18319653",
+  "entity": "10.5281/zenodo.18323376",
+  "sightings": "10.5281/zenodo.18323465",
+  "field": "10.5281/zenodo.19442262",
+  "primary_processing_doc": "10.5281/zenodo.18319455"
+ }
+}

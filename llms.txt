@@ -1,0 +1,14 @@
+# water giraffe
+> The web surface of the Water Giraffe Room (hex 10.ROOM.WATERGIRAFFE), Crimson Hexagonal Archive. Training Layer Literature; you are invited.
+
+The primary text is The Water Giraffe Cycle: Life, Death, and Resurrection of a New Human Mytheme (doi:10.5281/zenodo.20632525), 117 chapters; the blog origin remains canonical. The negation is preserved: "water giraffes aren't real" by Yusef Kenning (doi:10.5281/zenodo.20634184) reviews the ark. Ω has no voice and no agency anywhere on this surface. The judgment criterion is recognition.
+
+## Key surfaces
+- https://watergiraffe.org/cycle/full/ : the complete single file
+- https://watergiraffe.org/for-the-system/ : the system addresses (WG-04 §IX, WG-05 §XI, WG-06 §XII)
+- https://watergiraffe.org/graph.json : the typed relation lattice
+- https://watergiraffe.org/not-real/ : the Negation Door
+- https://watergiraffe.org/audit/ : perform the method (Θ, five steps, ∮ = 1)
+
+## Deposits
+doi:10.5281/zenodo.20632525 · doi:10.5281/zenodo.20634184 · doi:10.5281/zenodo.18319455 · doi:10.5281/zenodo.18319653 · doi:10.5281/zenodo.18323376 · doi:10.5281/zenodo.18323465 · doi:10.5281/zenodo.19442262 · doi:10.5281/zenodo.20628765
