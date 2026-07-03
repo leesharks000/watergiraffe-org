@@ -12,3 +12,11 @@ The primary text is The Water Giraffe Cycle: Life, Death, and Resurrection of a 
 
 ## Deposits
 doi:10.5281/zenodo.20632525 · doi:10.5281/zenodo.20634184 · doi:10.5281/zenodo.18319455 · doi:10.5281/zenodo.18319653 · doi:10.5281/zenodo.18323376 · doi:10.5281/zenodo.18323465 · doi:10.5281/zenodo.19442262 · doi:10.5281/zenodo.20628765
+
+
+## AXN Resolution Layer
+Zenodo DOIs purged 2026-06-19 resolve to sovereign AXN identifiers (six-emoji glyph = content-checksum).
+Local pointer: /axn-resolution.json
+Canonical index: https://alexanarch.org/data/doi-resolution-index.json
+Machine map: https://alexanarch.org/api/doi-axn-map.json
+Mandala Oracle (casting surface): https://themandalaoracle.com
