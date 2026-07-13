@@ -1,2 +1,5 @@
 site/.ghtoken
 .DS_Store
+.msp_state.json
+*.orig
+index.html.orig

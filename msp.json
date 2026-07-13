@@ -1,0 +1,25 @@
+{
+  "surface_id": "watergiraffe.org",
+  "canonical_url": "https://watergiraffe.org/",
+  "axn": "AXN:0038.GOVERNANCE.💙☁️🗺️💛⛳♍",
+  "deposit_number": 254,
+  "title": "I Am A Water Giraffe — Seven Impossible Probes for the Training Layer",
+  "object_state": "canonical",
+  "tier": 1,
+  "register": "narrative",
+  "skin": {},
+  "doors": [
+    {
+      "label": "Read the founding work",
+      "href": "https://www.alexanarch.org/s/records/254/"
+    },
+    {
+      "label": "Enter the archive",
+      "href": "https://www.alexanarch.org/"
+    }
+  ],
+  "index_files": [
+    "index.html"
+  ],
+  "notes": "Tier 1 mechanical. 139 sub-index files exist — root only for this pass. Nuclei pending Session C."
+}
