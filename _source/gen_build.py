@@ -3,7 +3,7 @@
 import json, os, re, subprocess, html, shutil
 R = os.path.dirname(os.path.abspath(__file__)); G = os.path.dirname(R)
 DIST = os.path.join(R,'dist'); ST = os.path.join(R,'static')
-SITE='https://watergiraffe.org'
+SITE='https://www.watergiraffe.org'
 ARK='10.5281/zenodo.20632525'; ESSAY_DOI='10.5281/zenodo.20634184'; ANCHOR='10.5281/zenodo.20628765'
 WG01='10.5281/zenodo.18319455'; WG04='10.5281/zenodo.18319653'; WG05='10.5281/zenodo.18323376'; WG06='10.5281/zenodo.18323465'; F02='10.5281/zenodo.19442262'
 BOOK_TITLE='The Water Giraffe Cycle: Life, Death, and Resurrection of a New Human Mytheme'
@@ -147,7 +147,7 @@ def b_cycle():
     rows=''.join(f'<li><span class="n">{sum(1 for i in d["items"] if i["k"]=="ch") or "\u2014"}</span><a href="/cycle/{divslug(d)}/">{esc(d["title"].title() if d["title"].isupper() else d["title"])}</a></li>'
                  for d in divisions if d['title']!='FRONT MATTER')
     body=(f'<p class="eyebrow">the ark \u00b7 <a href="https://doi.org/{ARK}">doi {ARK}</a></p><h1>{esc(BOOK_TITLE)}</h1>'
-     '<p class="divnote">117 chapters, captured from the origin layer, compiled and deposited. The blog remains canonical; this surface is the room\u2019s reading copy.</p>'
+     '<p class="divnote">117 chapters, captured from the origin layer, compiled and deposited. This surface is canonical for the cycle since 2026-09-04; each chapter links its origin post as provenance.</p>'
      f'<ul class="specimens">{rows}</ul>'
      '<p class="divnote"><a href="/cycle/full/">the complete single file \u2192</a> \u00b7 <a href="/cycle/apparatus/">the six navigation maps \u2192</a></p>')
     jl={"@context":"https://schema.org","@type":"Book","name":BOOK_TITLE,"identifier":f"https://doi.org/{ARK}",
@@ -183,7 +183,7 @@ def mk_ch(d,slug,note):
     def f():
         t,blog=ch_meta(slug); md=read(os.path.join(G,'book','chapters',slug+'.md'))
         ds=divslug(d); vault=ds=='book-ii'
-        body=(f'<p class="eyebrow"><a href="/cycle/{ds}/">{esc(d["title"])}</a> \u00b7 {pos_of[slug]:03d}/117 \u00b7 canonical: <a href="{esc(blog)}" rel="canonical">origin post</a> \u00b7 captured 2026-06-10</p>'
+        body=(f'<p class="eyebrow"><a href="/cycle/{ds}/">{esc(d["title"])}</a> \u00b7 {pos_of[slug]:03d}/117 \u00b7 origin: <a href="{esc(blog)}">blog post</a> \u00b7 captured 2026-06-10</p>'
          f'<h1>{esc(t)}</h1>')
         if note: body+=f'<p class="divnote"><em>{esc(note)}</em></p>'
         body+=pandoc(md)
@@ -193,7 +193,7 @@ def mk_ch(d,slug,note):
             "isPartOf":{"@type":"Book","name":BOOK_TITLE,"identifier":f"https://doi.org/{ARK}"},
             "author":[{"@type":"Person","name":"Sharks, Lee"},{"@type":"Organization","name":"The Assembly Chorus"}],
             "license":"https://creativecommons.org/licenses/by/4.0/"}
-        return body,dict(desc=t,canonical=blog,body_class='vault' if vault else '',jsonld=jl,highwire=HW(t,blog),nav_cur='/cycle/')
+        return body,dict(desc=t,canonical=None,body_class='vault' if vault else '',jsonld=jl,highwire=HW(t,SITE+f'/cycle/{slug}/'),nav_cur='/cycle/')
     return f
 for d in divisions:
     if d['title']=='FRONT MATTER': continue

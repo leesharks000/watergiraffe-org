@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://watergiraffe.org/sitemap.xml
+Sitemap: https://www.watergiraffe.org/sitemap.xml
